@@ -243,7 +243,7 @@ public class Main {
 									System.out.println(inventory[i].toString());
 								} else if(choice ==4) {
 									System.out.println("Okay, system will terminate");
-									System.exit(0);
+						
 								}
 							}
 						} else {
@@ -286,7 +286,7 @@ public class Main {
 												System.out.println(inventory[j].toString());
 											} else if(choice ==4) {
 												System.out.println("Okay, system will terminate");
-												System.exit(0);
+	
 											}
 										}
 									}
@@ -294,7 +294,7 @@ public class Main {
 								
 							} else {
 								System.out.println("System will now terminate");
-								System.exit(0);
+					
 							}
 						}
 					}
@@ -318,7 +318,6 @@ public class Main {
 			}
 			if(objectsFound == 0) {
 				System.out.println("Unfortunately, there are no appliances under that brand name.");
-				System.exit(0);
 			}
 			break;
 		} case 4: {
@@ -336,7 +335,6 @@ public class Main {
 			}
 			if(objectsFound == 0) {
 				System.out.println("Unfortunately, there are no appliances with a lower price.");
-				System.exit(0);
 			}
 			break;
 		} case 5: {
@@ -352,3 +350,4 @@ public class Main {
 		keyboard.close();
 	}
 }
+		
